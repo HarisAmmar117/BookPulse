@@ -1,0 +1,33 @@
+{
+  "low_card_cols": [
+    "hotel",
+    "arrival_date_month",
+    "meal",
+    "market_segment",
+    "distribution_channel",
+    "reserved_room_type",
+    "assigned_room_type",
+    "deposit_type",
+    "customer_type"
+  ],
+  "numeric_cols": [
+    "lead_time",
+    "adr",
+    "arrival_date_year",
+    "arrival_date_week_number",
+    "arrival_date_day_of_month",
+    "adults",
+    "children",
+    "babies",
+    "total_guests",
+    "total_nights",
+    "booking_changes",
+    "previous_cancellations",
+    "previous_bookings_not_canceled",
+    "previous_cancellations_ratio",
+    "required_car_parking_spaces",
+    "total_of_special_requests",
+    "country_encoded"
+  ],
+  "adr_upper_cap": 285.0
+}
