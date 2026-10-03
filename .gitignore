@@ -1,0 +1,4 @@
+/models
+/.conda
+/.vscode
+*.ipynb_checkpoints

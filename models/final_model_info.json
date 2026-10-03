@@ -1,0 +1,6 @@
+{
+  "model_name": "Random Forest (tuned)",
+  "test_roc_auc": 0.9061956731082179,
+  "test_f1": 0.7200813421453991,
+  "test_recall": 0.7392484342379958
+}
