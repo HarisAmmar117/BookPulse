@@ -24,7 +24,12 @@ project-root/
     ├── schemas.py
     ├── preprocessing.py
     ├── model_loader.py
-    └── requirements.txt   <- you are here
+├── requirements.txt
+└── backend/
+    ├── main.py
+    ├── schemas.py
+    ├── preprocessing.py
+    └── model_loader.py
 ```
 
 If you keep a different layout, set the `BOOKPULSE_MODELS_DIR`
@@ -33,14 +38,17 @@ editing the code.
 
 ## Setup
 
+Install the project dependencies from the repository root:
+
 ```bash
-cd backend
 pip install -r requirements.txt
 ```
 
-## Run
+## Run the API
 
+Start the API from the `backend/` folder:
 ```bash
+cd backend
 uvicorn main:app --reload
 ```
 

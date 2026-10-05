@@ -1,4 +1,30 @@
-/models
-/.conda
-/.vscode
-*.ipynb_checkpoints
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+/.conda/
+/.venv/
+/venv/
+/env/
+/ENV/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model artifacts
+/models/
+
+# Editor and operating-system files
+/.vscode/
+.DS_Store
+Thumbs.db
