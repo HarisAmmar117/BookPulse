@@ -19,11 +19,6 @@ project-root/
 │   ├── country_freq_map.json
 │   ├── feature_columns.json
 │   └── preprocessing_meta.json
-└── backend/
-    ├── main.py
-    ├── schemas.py
-    ├── preprocessing.py
-    ├── model_loader.py
 ├── requirements.txt
 └── backend/
     ├── main.py
@@ -47,6 +42,7 @@ pip install -r requirements.txt
 ## Run the API
 
 Start the API from the `backend/` folder:
+
 ```bash
 cd backend
 uvicorn main:app --reload
